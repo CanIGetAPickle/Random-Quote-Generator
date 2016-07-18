@@ -1,0 +1,51 @@
+body {
+  text-align:center;
+  width:100%;
+}
+
+.jumbotron {
+  background-color: transparent !important;
+  font-family: 'Happy Monkey', cursive;
+}
+
+p {
+  text-align: center;
+}
+
+.quote-div {
+  margin: auto;
+  float: clear;
+  width: 900px;
+  padding: 30px 20px 20px 20px;
+  color: #000000;
+}
+
+.animated-border {
+  outline: 10px dashed #E0E4CC;
+  box-shadow: 0 0 0 10px #69D2E7;
+  animation: 3s borderAnimation ease infinite;
+}
+
+@keyframes borderAnimation {
+  to {
+    outline-color: #69D2E7;
+    box-shadow: 0 0 0 10px #E0E4CC;
+  }
+}
+
+#quote {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 32px;
+  color: #69D2E7;
+}
+
+#author {
+   font-family: 'Open Sans', sans-serif;
+   font-size: 18px;
+   font-style: italic;
+   color: #939393;
+}
+
+#new-quote-button, #tweet-quote-button {
+  margin: 50px;
+}
